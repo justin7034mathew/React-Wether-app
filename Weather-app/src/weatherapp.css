@@ -1,0 +1,51 @@
+.wrapper {
+    background-image: url('./images/milky-way-3602131_640.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-input {
+    margin-top: 30px;
+}
+
+.weather-input input{
+    padding: 10px 20px;
+    width: 330px;
+    border-style: none;
+}
+
+.weather-input button {
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.location {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.degere h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.climate {
+    color: #fff;
+    display: flex;
+}
+
+.climatedetail {
+    display: flex;
+    padding: 20px;   
+}
+
+.climatedetail h4 {
+    margin-right: 20px;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
